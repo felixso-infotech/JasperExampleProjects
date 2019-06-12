@@ -1,0 +1,49 @@
+/**
+ * Author entity.
+ * @author Sarangi Balu A
+ */
+ 
+entity Author{
+	name String    
+}
+
+/**
+ * Author entity.
+ * @author Sarangi Balu A
+ */
+entity Book{
+	name String,
+    dateOfPublishing LocalDate   
+}
+
+/**
+ * Author entity.
+ * @author Sarangi Balu A
+ */
+entity Media{
+	fileName String,
+	file Blob
+}
+
+/**
+ * Author entity.
+ * @author Sarangi Balu A
+ */
+entity Publisher{
+	name String	
+}
+
+relationship OneToOne{
+	Book{coverPhoto} to Media
+}
+relationship ManyToOne{
+	Book{author} to Author{books}  
+}
+relationship ManyToMany{
+	Book{publishers} to Publisher{books}   
+}
+
+paginate * with pagination
+dto * with mapstruct
+service all with serviceImpl
+
