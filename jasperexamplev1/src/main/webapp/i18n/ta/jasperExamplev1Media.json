@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Media" : {
+            "home": {
+                "title": "Media",
+                "createLabel": "Media-ஐ உருவாக்கு",
+                "createOrEditLabel": "Media -ஐ மாற்று (அ) உருவாக்கு"
+            },
+            "created": "Media புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+            "updated": "Media மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+            "deleted": "A Media நீக்கப்பட்டது, அடையாளம {{ param }}",
+            "delete": {
+                "question": "நீக்குவதற்கு உறுதி செய் Media {{ id }}?"
+            },
+            "detail": {
+                "title": "Media"
+            },
+            "fileName": "File Name",
+            "file": "File"
+        }
+    }
+}

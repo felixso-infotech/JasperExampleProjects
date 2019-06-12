@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Publisher" : {
+            "home": {
+                "title": "Publishers",
+                "createLabel": "Krijo një të ri Publisher",
+                "createOrEditLabel": "Krijo ose përpuno një Publisher"
+            },
+            "created": "Një Publisher i ri u krijua me identifikues {{ param }}",
+            "updated": "Një Publisher u përpunua me identifikues {{ param }}",
+            "deleted": "Një Publisher u fshi me identifikues {{ param }}",
+            "delete": {
+                "question": "Jeni i sigurtë që doni të fshini Publisher {{ id }}?"
+            },
+            "detail": {
+                "title": "Publisher"
+            },
+            "name": "Name",
+            "books": "Books"
+        }
+    }
+}

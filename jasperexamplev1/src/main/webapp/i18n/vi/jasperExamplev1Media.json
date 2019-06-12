@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Media" : {
+            "home": {
+                "title": "Media",
+                "createLabel": "Thêm mới một Media",
+                "createOrEditLabel": "Thêm mới hoặc cập nhật Media"
+            },
+            "created": "Một Media mới được tạo với định danh {{ param }}",
+            "updated": "Một Media cập nhật với định danh {{ param }}",
+            "deleted": "Một Media đã xóa với định danh {{ param }}",
+            "delete": {
+                "question": "Bạn có chắc là muốn xóa Media {{ id }}?"
+            },
+            "detail": {
+                "title": "Media"
+            },
+            "fileName": "File Name",
+            "file": "File"
+        }
+    }
+}

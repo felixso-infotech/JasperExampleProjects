@@ -1,0 +1,26 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Book" : {
+            "home": {
+                "title": "Books",
+                "createLabel": "Book-ஐ உருவாக்கு",
+                "createOrEditLabel": "Book -ஐ மாற்று (அ) உருவாக்கு"
+            },
+            "created": "Book புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+            "updated": "Book மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+            "deleted": "A Book நீக்கப்பட்டது, அடையாளம {{ param }}",
+            "delete": {
+                "question": "நீக்குவதற்கு உறுதி செய் Book {{ id }}?"
+            },
+            "detail": {
+                "title": "Book"
+            },
+            "name": "Name",
+            "dateOfPublishing": "Date Of Publishing",
+            "coverPhoto": "Cover Photo",
+            "author": "Author",
+            "publishers": "Publishers"
+        }
+    }
+}

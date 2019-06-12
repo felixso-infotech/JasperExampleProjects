@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Publisher" : {
+            "home": {
+                "title": "Publishers",
+                "createLabel": "Kreiraj novi Publisher",
+                "createOrEditLabel": "Kreirajte ili izmenite Publisher"
+            },
+            "created": "Kreiran je novi Publisher pod nazivom {{ param }}",
+            "updated": "Publisher pod nazivom {{ param }} je ažuriran",
+            "deleted": "Publisher pod nazivom {{ param }} je obrisan",
+            "delete": {
+                "question": "Da li ste sigurni da želite da obrišete Publisher pod nazivom {{ id }}?"
+            },
+            "detail": {
+                "title": "Publisher"
+            },
+            "name": "Name",
+            "books": "Books"
+        }
+    }
+}

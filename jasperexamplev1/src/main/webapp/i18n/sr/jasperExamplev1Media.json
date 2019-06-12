@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Media" : {
+            "home": {
+                "title": "Media",
+                "createLabel": "Kreiraj novi Media",
+                "createOrEditLabel": "Kreirajte ili izmenite Media"
+            },
+            "created": "Kreiran je novi Media pod nazivom {{ param }}",
+            "updated": "Media pod nazivom {{ param }} je ažuriran",
+            "deleted": "Media pod nazivom {{ param }} je obrisan",
+            "delete": {
+                "question": "Da li ste sigurni da želite da obrišete Media pod nazivom {{ id }}?"
+            },
+            "detail": {
+                "title": "Media"
+            },
+            "fileName": "File Name",
+            "file": "File"
+        }
+    }
+}

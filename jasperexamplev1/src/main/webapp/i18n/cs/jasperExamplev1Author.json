@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Author" : {
+            "home": {
+                "title": "Authors",
+                "createLabel": "Vytvořit Author",
+                "createOrEditLabel": "Vytvořit nebo upravit Author"
+            },
+            "created": "Byl vytvořen potomek entity Author s identifikátorem {{ param }}",
+            "updated": "Potomek entity Author s identifikátorem {{ param }} byl upravený.",
+            "deleted": "Potomek entity Author s identifikátorem {{ param }} bol smazaný.",
+            "delete": {
+                "question": "Jste si jisti, že chcete smazat Author {{ id }}?"
+            },
+            "detail": {
+                "title": "Author"
+            },
+            "name": "Name",
+            "books": "Books"
+        }
+    }
+}

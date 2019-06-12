@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Media" : {
+            "home": {
+                "title": "Media",
+                "createLabel": "Pridať Media",
+                "createOrEditLabel": "Pridať alebo upraviť Media"
+            },
+            "created": "Bol vytvorený potomok entity Media s identifikátorom {{ param }}",
+            "updated": "Potomok entity Media s identifikátorom {{ param }} bol upravený.",
+            "deleted": "Potomok entity Media s identifikátorom {{ param }} bol vymazaný.",
+            "delete": {
+                "question": "Ste si istý, že chcete vymazať Media {{ id }}?"
+            },
+            "detail": {
+                "title": "Media"
+            },
+            "fileName": "File Name",
+            "file": "File"
+        }
+    }
+}

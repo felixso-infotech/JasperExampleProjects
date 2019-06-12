@@ -1,0 +1,26 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Book" : {
+            "home": {
+                "title": "Books",
+                "createLabel": "Pridať Book",
+                "createOrEditLabel": "Pridať alebo upraviť Book"
+            },
+            "created": "Bol vytvorený potomok entity Book s identifikátorom {{ param }}",
+            "updated": "Potomok entity Book s identifikátorom {{ param }} bol upravený.",
+            "deleted": "Potomok entity Book s identifikátorom {{ param }} bol vymazaný.",
+            "delete": {
+                "question": "Ste si istý, že chcete vymazať Book {{ id }}?"
+            },
+            "detail": {
+                "title": "Book"
+            },
+            "name": "Name",
+            "dateOfPublishing": "Date Of Publishing",
+            "coverPhoto": "Cover Photo",
+            "author": "Author",
+            "publishers": "Publishers"
+        }
+    }
+}

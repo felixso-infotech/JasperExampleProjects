@@ -1,0 +1,26 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Book" : {
+            "home": {
+                "title": "Books",
+                "createLabel": "Kreiraj novi Book",
+                "createOrEditLabel": "Kreirajte ili izmenite Book"
+            },
+            "created": "Kreiran je novi Book pod nazivom {{ param }}",
+            "updated": "Book pod nazivom {{ param }} je ažuriran",
+            "deleted": "Book pod nazivom {{ param }} je obrisan",
+            "delete": {
+                "question": "Da li ste sigurni da želite da obrišete Book pod nazivom {{ id }}?"
+            },
+            "detail": {
+                "title": "Book"
+            },
+            "name": "Name",
+            "dateOfPublishing": "Date Of Publishing",
+            "coverPhoto": "Cover Photo",
+            "author": "Author",
+            "publishers": "Publishers"
+        }
+    }
+}

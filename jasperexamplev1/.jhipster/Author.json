@@ -1,0 +1,28 @@
+{
+    "name": "Author",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "books",
+            "otherEntityName": "book",
+            "otherEntityRelationshipName": "author"
+        }
+    ],
+    "changelogDate": "20190610091805",
+    "javadoc": "Author entity.\n@author Sarangi Balu A",
+    "entityTableName": "author",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "jasperExamplev1",
+    "applications": "*",
+    "microserviceName": "jasperExamplev1"
+}

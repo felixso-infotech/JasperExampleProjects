@@ -1,0 +1,48 @@
+{
+    "name": "Book",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dateOfPublishing",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "relationshipName": "coverPhoto",
+            "otherEntityName": "media",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "book"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "author",
+            "otherEntityName": "author",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityRelationshipName": "books",
+            "relationshipName": "publishers",
+            "otherEntityName": "publisher",
+            "otherEntityField": "id",
+            "ownerSide": true
+        }
+    ],
+    "changelogDate": "20190610091806",
+    "javadoc": "Author entity.\n@author Sarangi Balu A",
+    "entityTableName": "book",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "jasperExamplev1",
+    "applications": "*",
+    "microserviceName": "jasperExamplev1"
+}

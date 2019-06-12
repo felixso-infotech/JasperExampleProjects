@@ -1,0 +1,26 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Book" : {
+            "home": {
+                "title": "Books",
+                "createLabel": "Egy új Book létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Bookt"
+            },
+            "created": "Egy új Book lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Book módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Book törölve lett {{ param }} azonosítóval",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Bookt {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Book"
+            },
+            "name": "Name",
+            "dateOfPublishing": "Date Of Publishing",
+            "coverPhoto": "Cover Photo",
+            "author": "Author",
+            "publishers": "Publishers"
+        }
+    }
+}

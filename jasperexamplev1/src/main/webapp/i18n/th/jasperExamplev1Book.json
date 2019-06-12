@@ -1,0 +1,26 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Book" : {
+            "home": {
+                "title": "Books",
+                "createLabel": "สร้าง Book",
+                "createOrEditLabel": "สร้างหรือแก้ไข Book"
+            },
+            "created": "Book ถูกสร้างด้วย {{ param }}",
+            "updated": "Book ถูกแก้ไขด้วย {{ param }}",
+            "deleted": "Book ถูกลบด้วย {{ param }}",
+            "delete": {
+                "question": "คุณต้องการที่จะลบ Book {{ id }}?"
+            },
+            "detail": {
+                "title": "Book"
+            },
+            "name": "Name",
+            "dateOfPublishing": "Date Of Publishing",
+            "coverPhoto": "Cover Photo",
+            "author": "Author",
+            "publishers": "Publishers"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Media" : {
+            "home": {
+                "title": "Media",
+                "createLabel": "Yangi Media qo`shish",
+                "createOrEditLabel": "Mediani tahrirlash"
+            },
+            "created": "Media {{ param }} bilan qo`shildi",
+            "updated": "{{ param }}- Media saqlandi",
+            "deleted": "{{ param }}- Media o`chirildi",
+            "delete": {
+                "question": "{{ id }}- Mediani o`chirmoqchimisiz? "
+            },
+            "detail": {
+                "title": "Media"
+            },
+            "fileName": "File Name",
+            "file": "File"
+        }
+    }
+}

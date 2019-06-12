@@ -1,0 +1,26 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Book" : {
+            "home": {
+                "title": "Book",
+                "createLabel": "Dodaj Book",
+                "createOrEditLabel": "Dodaj lub edytuj: Book"
+            },
+            "created": "Utworzono nowy obiekt typu Book z identyfikatorem {{ param }}",
+            "updated": "Uaktualniono obiekt typu Book z identyfikatorem {{ param }}",
+            "deleted": "Usunięto obiekt typu Book z identyfikatorem {{ param }}",
+            "delete": {
+                "question": "Czy na pewno chcesz usunąć Book {{ id }}?"
+            },
+            "detail": {
+                "title": "Book"
+            },
+            "name": "Name",
+            "dateOfPublishing": "Date Of Publishing",
+            "coverPhoto": "Cover Photo",
+            "author": "Author",
+            "publishers": "Publishers"
+        }
+    }
+}

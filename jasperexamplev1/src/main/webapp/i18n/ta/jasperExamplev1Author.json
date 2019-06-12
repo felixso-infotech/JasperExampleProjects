@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Author" : {
+            "home": {
+                "title": "Authors",
+                "createLabel": "Author-ஐ உருவாக்கு",
+                "createOrEditLabel": "Author -ஐ மாற்று (அ) உருவாக்கு"
+            },
+            "created": "Author புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+            "updated": "Author மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+            "deleted": "A Author நீக்கப்பட்டது, அடையாளம {{ param }}",
+            "delete": {
+                "question": "நீக்குவதற்கு உறுதி செய் Author {{ id }}?"
+            },
+            "detail": {
+                "title": "Author"
+            },
+            "name": "Name",
+            "books": "Books"
+        }
+    }
+}

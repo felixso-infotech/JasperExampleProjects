@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Publisher" : {
+            "home": {
+                "title": "Publishers",
+                "createLabel": "Skapa en ny Publisher",
+                "createOrEditLabel": "Skapa eller ändra en Publisher"
+            },
+            "created": "En ny Publisher är skapad med id {{ param }}",
+            "updated": "En Publisher är uppdaterad med id  {{ param }}",
+            "deleted": "En Publisher är borttagen med id  {{ param }}",
+            "delete": {
+                "question": "Är du säker på att du vill ta bort Publisher {{ id }}?"
+            },
+            "detail": {
+                "title": "Publisher"
+            },
+            "name": "Name",
+            "books": "Books"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Publisher" : {
+            "home": {
+                "title": "Publishers",
+                "createLabel": "Thêm mới một Publisher",
+                "createOrEditLabel": "Thêm mới hoặc cập nhật Publisher"
+            },
+            "created": "Một Publisher mới được tạo với định danh {{ param }}",
+            "updated": "Một Publisher cập nhật với định danh {{ param }}",
+            "deleted": "Một Publisher đã xóa với định danh {{ param }}",
+            "delete": {
+                "question": "Bạn có chắc là muốn xóa Publisher {{ id }}?"
+            },
+            "detail": {
+                "title": "Publisher"
+            },
+            "name": "Name",
+            "books": "Books"
+        }
+    }
+}
