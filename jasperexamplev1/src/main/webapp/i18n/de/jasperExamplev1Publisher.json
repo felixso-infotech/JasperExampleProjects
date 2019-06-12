@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Publisher" : {
+            "home": {
+                "title": "Publishers",
+                "createLabel": "Publisher erstellen",
+                "createOrEditLabel": "Publisher erstellen oder bearbeiten"
+            },
+            "created": "Publisher erstellt mit ID {{ param }}",
+            "updated": "Publisher aktualisiert mit ID {{ param }}",
+            "deleted": "Publisher gelöscht mit ID {{ param }}",
+            "delete": {
+                "question": "Soll Publisher {{ id }} wirklich dauerhaft gelöscht werden?"
+            },
+            "detail": {
+                "title": "Publisher"
+            },
+            "name": "Name",
+            "books": "Books"
+        }
+    }
+}

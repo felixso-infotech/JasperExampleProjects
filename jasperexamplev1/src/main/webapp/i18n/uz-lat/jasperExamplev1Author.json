@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Author" : {
+            "home": {
+                "title": "Authors",
+                "createLabel": "Yangi Author qo`shish",
+                "createOrEditLabel": "Authorni tahrirlash"
+            },
+            "created": "Author {{ param }} bilan qo`shildi",
+            "updated": "{{ param }}- Author saqlandi",
+            "deleted": "{{ param }}- Author o`chirildi",
+            "delete": {
+                "question": "{{ id }}- Authorni o`chirmoqchimisiz? "
+            },
+            "detail": {
+                "title": "Author"
+            },
+            "name": "Name",
+            "books": "Books"
+        }
+    }
+}

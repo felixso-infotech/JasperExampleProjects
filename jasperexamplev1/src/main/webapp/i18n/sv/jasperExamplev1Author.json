@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Author" : {
+            "home": {
+                "title": "Authors",
+                "createLabel": "Skapa en ny Author",
+                "createOrEditLabel": "Skapa eller ändra en Author"
+            },
+            "created": "En ny Author är skapad med id {{ param }}",
+            "updated": "En Author är uppdaterad med id  {{ param }}",
+            "deleted": "En Author är borttagen med id  {{ param }}",
+            "delete": {
+                "question": "Är du säker på att du vill ta bort Author {{ id }}?"
+            },
+            "detail": {
+                "title": "Author"
+            },
+            "name": "Name",
+            "books": "Books"
+        }
+    }
+}

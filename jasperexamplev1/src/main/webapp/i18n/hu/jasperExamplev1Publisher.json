@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Publisher" : {
+            "home": {
+                "title": "Publishers",
+                "createLabel": "Egy új Publisher létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Publishert"
+            },
+            "created": "Egy új Publisher lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Publisher módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Publisher törölve lett {{ param }} azonosítóval",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Publishert {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Publisher"
+            },
+            "name": "Name",
+            "books": "Books"
+        }
+    }
+}

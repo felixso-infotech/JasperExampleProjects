@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Media" : {
+            "home": {
+                "title": "Media",
+                "createLabel": "Egy új Media létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Mediat"
+            },
+            "created": "Egy új Media lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Media módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Media törölve lett {{ param }} azonosítóval",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Mediat {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Media"
+            },
+            "fileName": "File Name",
+            "file": "File"
+        }
+    }
+}

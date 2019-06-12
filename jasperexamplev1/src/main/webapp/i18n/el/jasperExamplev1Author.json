@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Author" : {
+            "home": {
+                "title": "Authors",
+                "createLabel": "Δημιουργήστε ένα νέο Author",
+                "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Author"
+            },
+            "created": "Ένα νέο Author έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+            "updated": "Ένα Author έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+            "deleted": "Ένα Author έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+            "delete": {
+                "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Author {{ id }};"
+            },
+            "detail": {
+                "title": "Author"
+            },
+            "name": "Name",
+            "books": "Books"
+        }
+    }
+}

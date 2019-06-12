@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Publisher" : {
+            "home": {
+                "title": "Publishers",
+                "createLabel": "สร้าง Publisher",
+                "createOrEditLabel": "สร้างหรือแก้ไข Publisher"
+            },
+            "created": "Publisher ถูกสร้างด้วย {{ param }}",
+            "updated": "Publisher ถูกแก้ไขด้วย {{ param }}",
+            "deleted": "Publisher ถูกลบด้วย {{ param }}",
+            "delete": {
+                "question": "คุณต้องการที่จะลบ Publisher {{ id }}?"
+            },
+            "detail": {
+                "title": "Publisher"
+            },
+            "name": "Name",
+            "books": "Books"
+        }
+    }
+}

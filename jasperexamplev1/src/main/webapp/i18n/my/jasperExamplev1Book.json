@@ -1,0 +1,26 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Book" : {
+            "home": {
+                "title": "Books",
+                "createLabel": "Book အသစ်ထည့်မည်",
+                "createOrEditLabel": "Book အသစ်ထည့်ခြင်း (သို့) ပြုပြင်ခြင်း"
+            },
+            "created": "{{ param }} အိုင်ဒီဖြင့် Book အသစ်တစ်ခုအား ထည့်ပြီးပါပြီ။",
+            "updated": "{{ param }} အိုင်ဒီဖြင့် Book တစ်ခုအား ပြုပြင်ပြီးပါပြီ။",
+            "deleted": "{{ param }} အိုင်ဒီဖြင့် Book တစ်ခုအား ဖျက်ပြီးပါပြီ။",
+            "delete": {
+                "question": "Book {{ id }} အား ဖျက်ပါမည်။ သေချာပါသလား?"
+            },
+            "detail": {
+                "title": "Book"
+            },
+            "name": "Name",
+            "dateOfPublishing": "Date Of Publishing",
+            "coverPhoto": "Cover Photo",
+            "author": "Author",
+            "publishers": "Publishers"
+        }
+    }
+}

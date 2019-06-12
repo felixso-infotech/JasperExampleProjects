@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Media" : {
+            "home": {
+                "title": "Media",
+                "createLabel": "Створити новий Media",
+                "createOrEditLabel": "Створити чи редагувати Media"
+            },
+            "created": "Новий Media створений з ідентифікатором {{ param }}",
+            "updated": "Media оновлений з ідентифікатором {{ param }}",
+            "deleted": "Media видалений з ідентифікатором {{ param }}",
+            "delete": {
+                "question": "Ви впевнені, що хочете видалити Media {{ id }}?"
+            },
+            "detail": {
+                "title": "Media"
+            },
+            "fileName": "File Name",
+            "file": "File"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Publisher" : {
+            "home": {
+                "title": "Publishers",
+                "createLabel": "नवीन Publisher तयार करा",
+                "createOrEditLabel": "Publisher तयार किंवा संपादित करा"
+            },
+            "created": "Publisher [identifier: {{ param }}] तयार आहे",
+            "updated": "Publisher [identifier: {{ param }}] सुधारित केले आहे",
+            "deleted": "Publisher [identifier: {{ param }}] हटविले आहे",
+            "delete": {
+                "question": "Publisher [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+            },
+            "detail": {
+                "title": "Publisher"
+            },
+            "name": "Name",
+            "books": "Books"
+        }
+    }
+}

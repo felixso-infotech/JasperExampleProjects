@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Author" : {
+            "home": {
+                "title": "Authors",
+                "createLabel": "Author を追加",
+                "createOrEditLabel": "Authorを追加または編集"
+            },
+            "created": "A new Author is created with identifier {{ param }}",
+            "updated": "A Author is updated with identifier {{ param }}",
+            "deleted": "A Author is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Author {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Author"
+            },
+            "name": "Name",
+            "books": "Books"
+        }
+    }
+}

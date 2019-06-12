@@ -1,0 +1,26 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Book" : {
+            "home": {
+                "title": "Books",
+                "createLabel": "Book erstellen",
+                "createOrEditLabel": "Book erstellen oder bearbeiten"
+            },
+            "created": "Book erstellt mit ID {{ param }}",
+            "updated": "Book aktualisiert mit ID {{ param }}",
+            "deleted": "Book gelöscht mit ID {{ param }}",
+            "delete": {
+                "question": "Soll Book {{ id }} wirklich dauerhaft gelöscht werden?"
+            },
+            "detail": {
+                "title": "Book"
+            },
+            "name": "Name",
+            "dateOfPublishing": "Date Of Publishing",
+            "coverPhoto": "Cover Photo",
+            "author": "Author",
+            "publishers": "Publishers"
+        }
+    }
+}

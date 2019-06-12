@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Publisher" : {
+            "home": {
+                "title": "Publishers",
+                "createLabel": "Criar novo Publisher",
+                "createOrEditLabel": "Criar ou editar Publisher"
+            },
+            "created": "Um novo Publisher foi criado com o identificador {{ param }}",
+            "updated": "Um Publisher foi atualizado com o identificador {{ param }}",
+            "deleted": "Um Publisher foi deletado com o identificador {{ param }}",
+            "delete": {
+                "question": "Tem certeza de que deseja excluir Publisher {{ id }}?"
+            },
+            "detail": {
+                "title": "Publisher"
+            },
+            "name": "Name",
+            "books": "Books"
+        }
+    }
+}

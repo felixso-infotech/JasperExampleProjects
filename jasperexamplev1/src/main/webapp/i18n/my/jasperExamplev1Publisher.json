@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Publisher" : {
+            "home": {
+                "title": "Publishers",
+                "createLabel": "Publisher အသစ်ထည့်မည်",
+                "createOrEditLabel": "Publisher အသစ်ထည့်ခြင်း (သို့) ပြုပြင်ခြင်း"
+            },
+            "created": "{{ param }} အိုင်ဒီဖြင့် Publisher အသစ်တစ်ခုအား ထည့်ပြီးပါပြီ။",
+            "updated": "{{ param }} အိုင်ဒီဖြင့် Publisher တစ်ခုအား ပြုပြင်ပြီးပါပြီ။",
+            "deleted": "{{ param }} အိုင်ဒီဖြင့် Publisher တစ်ခုအား ဖျက်ပြီးပါပြီ။",
+            "delete": {
+                "question": "Publisher {{ id }} အား ဖျက်ပါမည်။ သေချာပါသလား?"
+            },
+            "detail": {
+                "title": "Publisher"
+            },
+            "name": "Name",
+            "books": "Books"
+        }
+    }
+}

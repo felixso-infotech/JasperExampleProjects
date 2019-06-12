@@ -1,0 +1,26 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Book" : {
+            "home": {
+                "title": "Books",
+                "createLabel": "Ստեղծել նոր Book",
+                "createOrEditLabel": "Ստեղծել կամ փոփոխել Book"
+            },
+            "created": "Նոր Book ստեղծված է {{ param }} նունացուցիչով",
+            "updated": "Book թարմացվաց է {{ param }} նունացուցիչով",
+            "deleted": "Book հեռացված է {{ param }}  նունացուցիչով",
+            "delete": {
+                "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Book {{ id }}?"
+            },
+            "detail": {
+                "title": "Book"
+            },
+            "name": "Name",
+            "dateOfPublishing": "Date Of Publishing",
+            "coverPhoto": "Cover Photo",
+            "author": "Author",
+            "publishers": "Publishers"
+        }
+    }
+}

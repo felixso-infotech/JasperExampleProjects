@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Media" : {
+            "home": {
+                "title": "Media",
+                "createLabel": "Media အသစ်ထည့်မည်",
+                "createOrEditLabel": "Media အသစ်ထည့်ခြင်း (သို့) ပြုပြင်ခြင်း"
+            },
+            "created": "{{ param }} အိုင်ဒီဖြင့် Media အသစ်တစ်ခုအား ထည့်ပြီးပါပြီ။",
+            "updated": "{{ param }} အိုင်ဒီဖြင့် Media တစ်ခုအား ပြုပြင်ပြီးပါပြီ။",
+            "deleted": "{{ param }} အိုင်ဒီဖြင့် Media တစ်ခုအား ဖျက်ပြီးပါပြီ။",
+            "delete": {
+                "question": "Media {{ id }} အား ဖျက်ပါမည်။ သေချာပါသလား?"
+            },
+            "detail": {
+                "title": "Media"
+            },
+            "fileName": "File Name",
+            "file": "File"
+        }
+    }
+}

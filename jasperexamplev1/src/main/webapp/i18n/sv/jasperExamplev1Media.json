@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Media" : {
+            "home": {
+                "title": "Media",
+                "createLabel": "Skapa en ny Media",
+                "createOrEditLabel": "Skapa eller ändra en Media"
+            },
+            "created": "En ny Media är skapad med id {{ param }}",
+            "updated": "En Media är uppdaterad med id  {{ param }}",
+            "deleted": "En Media är borttagen med id  {{ param }}",
+            "delete": {
+                "question": "Är du säker på att du vill ta bort Media {{ id }}?"
+            },
+            "detail": {
+                "title": "Media"
+            },
+            "fileName": "File Name",
+            "file": "File"
+        }
+    }
+}

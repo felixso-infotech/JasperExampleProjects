@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Publisher" : {
+            "home": {
+                "title": "Publishers",
+                "createLabel": "Publisher-ஐ உருவாக்கு",
+                "createOrEditLabel": "Publisher -ஐ மாற்று (அ) உருவாக்கு"
+            },
+            "created": "Publisher புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+            "updated": "Publisher மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+            "deleted": "A Publisher நீக்கப்பட்டது, அடையாளம {{ param }}",
+            "delete": {
+                "question": "நீக்குவதற்கு உறுதி செய் Publisher {{ id }}?"
+            },
+            "detail": {
+                "title": "Publisher"
+            },
+            "name": "Name",
+            "books": "Books"
+        }
+    }
+}

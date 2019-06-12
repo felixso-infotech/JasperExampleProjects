@@ -1,0 +1,59 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" #editForm="ngForm">
+            <h2 id="jhi-book-heading" jhiTranslate="jasperExamplev1App.jasperExamplev1Book.home.createOrEditLabel">Create or edit a Book</h2>
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+                <div class="form-group" [hidden]="!book.id">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id"
+                        [(ngModel)]="book.id" readonly />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="jasperExamplev1App.jasperExamplev1Book.name" for="field_name">Name</label>
+                    <input type="text" class="form-control" name="name" id="field_name"
+                        [(ngModel)]="book.name" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="jasperExamplev1App.jasperExamplev1Book.dateOfPublishing" for="field_dateOfPublishing">Date Of Publishing</label>
+                    <div class="input-group">
+                        <input id="field_dateOfPublishing" type="text" class="form-control" name="dateOfPublishing" ngbDatepicker  #dateOfPublishingDp="ngbDatepicker" [(ngModel)]="book.dateOfPublishing"
+                        />
+                        <span class="input-group-append">
+                            <button type="button" class="btn btn-secondary" (click)="dateOfPublishingDp.toggle()"><fa-icon [icon]="'calendar-alt'"></fa-icon></button>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="jasperExamplev1App.jasperExamplev1Book.coverPhoto" for="field_coverPhoto">Cover Photo</label>
+                    <select class="form-control" id="field_coverPhoto" name="coverPhoto" [(ngModel)]="book.coverPhotoId">
+                        <option [ngValue]="null"></option>
+                        <option [ngValue]="mediaOption.id" *ngFor="let mediaOption of coverphotos; trackBy: trackMediaById">{{mediaOption.id}}</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="jasperExamplev1App.jasperExamplev1Book.author" for="field_author">Author</label>
+                    <select class="form-control" id="field_author" name="author" [(ngModel)]="book.authorId" >
+                        <option [ngValue]="null"></option>
+                        <option [ngValue]="authorOption.id" *ngFor="let authorOption of authors; trackBy: trackAuthorById">{{authorOption.id}}</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label jhiTranslate="jasperExamplev1App.jasperExamplev1Book.publishers" for="field_publishers">Publishers</label>
+                    <select class="form-control" id="field_publishers" multiple name="publishers" [(ngModel)]="book.publishers">
+                        <option [ngValue]="getSelected(book.publishers, publisherOption)" *ngFor="let publisherOption of publishers; trackBy: trackPublisherById">{{publisherOption.id}}</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary"  (click)="previousState()">
+                    <fa-icon [icon]="'ban'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+                <button type="submit" id="save-entity" [disabled]="editForm.form.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon [icon]="'save'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

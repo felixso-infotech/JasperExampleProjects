@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Publisher" : {
+            "home": {
+                "title": "Publishers",
+                "createLabel": "Pridať Publisher",
+                "createOrEditLabel": "Pridať alebo upraviť Publisher"
+            },
+            "created": "Bol vytvorený potomok entity Publisher s identifikátorom {{ param }}",
+            "updated": "Potomok entity Publisher s identifikátorom {{ param }} bol upravený.",
+            "deleted": "Potomok entity Publisher s identifikátorom {{ param }} bol vymazaný.",
+            "delete": {
+                "question": "Ste si istý, že chcete vymazať Publisher {{ id }}?"
+            },
+            "detail": {
+                "title": "Publisher"
+            },
+            "name": "Name",
+            "books": "Books"
+        }
+    }
+}

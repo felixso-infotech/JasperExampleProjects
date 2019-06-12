@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Media" : {
+            "home": {
+                "title": "Media",
+                "createLabel": "Buat Media baru",
+                "createOrEditLabel": "Buat atau edit Media"
+            },
+            "created": "Media dengan id {{ param }} telah dibuat",
+            "updated": "Media dengan id {{ param }} telah diperbaharui",
+            "deleted": "Media dengan id {{ param }} telah dihapus",
+            "delete": {
+                "question": "Apakah anda yakin ingin menghapus Media {{ id }}?"
+            },
+            "detail": {
+                "title": "Media"
+            },
+            "fileName": "File Name",
+            "file": "File"
+        }
+    }
+}

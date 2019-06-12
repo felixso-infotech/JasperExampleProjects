@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Author" : {
+            "home": {
+                "title": "Authors",
+                "createLabel": "Стварыць новы Author",
+                "createOrEditLabel": "Стварыць або адрэдагаваць Author"
+            },
+            "created": "Новы Author створан з ідэнтыфікатарам {{ param }}",
+            "updated": "Author абноўлен з ідэнтыфікатарам {{ param }}",
+            "deleted": "Author выдален з ідэнтыфікатарам {{ param }}",
+            "delete": {
+                "question": "Вы ўпэўнены, што жадаеце выдаліць Author {{ id }}?"
+            },
+            "detail": {
+                "title": "Author"
+            },
+            "name": "Name",
+            "books": "Books"
+        }
+    }
+}

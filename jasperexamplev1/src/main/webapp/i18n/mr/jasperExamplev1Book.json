@@ -1,0 +1,26 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Book" : {
+            "home": {
+                "title": "Books",
+                "createLabel": "नवीन Book तयार करा",
+                "createOrEditLabel": "Book तयार किंवा संपादित करा"
+            },
+            "created": "Book [identifier: {{ param }}] तयार आहे",
+            "updated": "Book [identifier: {{ param }}] सुधारित केले आहे",
+            "deleted": "Book [identifier: {{ param }}] हटविले आहे",
+            "delete": {
+                "question": "Book [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+            },
+            "detail": {
+                "title": "Book"
+            },
+            "name": "Name",
+            "dateOfPublishing": "Date Of Publishing",
+            "coverPhoto": "Cover Photo",
+            "author": "Author",
+            "publishers": "Publishers"
+        }
+    }
+}

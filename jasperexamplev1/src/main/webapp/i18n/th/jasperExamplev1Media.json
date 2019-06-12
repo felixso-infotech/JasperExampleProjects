@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Media" : {
+            "home": {
+                "title": "Media",
+                "createLabel": "สร้าง Media",
+                "createOrEditLabel": "สร้างหรือแก้ไข Media"
+            },
+            "created": "Media ถูกสร้างด้วย {{ param }}",
+            "updated": "Media ถูกแก้ไขด้วย {{ param }}",
+            "deleted": "Media ถูกลบด้วย {{ param }}",
+            "delete": {
+                "question": "คุณต้องการที่จะลบ Media {{ id }}?"
+            },
+            "detail": {
+                "title": "Media"
+            },
+            "fileName": "File Name",
+            "file": "File"
+        }
+    }
+}

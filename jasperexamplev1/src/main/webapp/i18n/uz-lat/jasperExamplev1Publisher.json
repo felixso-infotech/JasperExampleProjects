@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Publisher" : {
+            "home": {
+                "title": "Publishers",
+                "createLabel": "Yangi Publisher qo`shish",
+                "createOrEditLabel": "Publisherni tahrirlash"
+            },
+            "created": "Publisher {{ param }} bilan qo`shildi",
+            "updated": "{{ param }}- Publisher saqlandi",
+            "deleted": "{{ param }}- Publisher o`chirildi",
+            "delete": {
+                "question": "{{ id }}- Publisherni o`chirmoqchimisiz? "
+            },
+            "detail": {
+                "title": "Publisher"
+            },
+            "name": "Name",
+            "books": "Books"
+        }
+    }
+}

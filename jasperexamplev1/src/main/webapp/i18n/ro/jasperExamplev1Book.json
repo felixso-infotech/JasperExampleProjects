@@ -1,0 +1,26 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Book" : {
+            "home": {
+                "title": "Books",
+                "createLabel": "Creeare o nouă entitate Book",
+                "createOrEditLabel": "Creeare sau editare Book"
+            },
+            "created": "A fost creată o nouă entitate Book cu identificatorul {{ param }}",
+            "updated": "Book cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Book cu identificatorul {{ param }} a fost ștearsă",
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Book {{ id }}?"
+            },
+            "detail": {
+                "title": "Book"
+            },
+            "name": "Name",
+            "dateOfPublishing": "Date Of Publishing",
+            "coverPhoto": "Cover Photo",
+            "author": "Author",
+            "publishers": "Publishers"
+        }
+    }
+}

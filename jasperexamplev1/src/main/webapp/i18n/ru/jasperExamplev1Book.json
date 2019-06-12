@@ -1,0 +1,26 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Book" : {
+            "home": {
+                "title": "Books",
+                "createLabel": "Создать новый Book",
+                "createOrEditLabel": "Создать или отредактировать Book"
+            },
+            "created": "Новый Book создан с идентификатором {{ param }}",
+            "updated": "Book обновлен с идентификатором {{ param }}",
+            "deleted": "Book удален с идентификатором {{ param }}",
+            "delete": {
+                "question": "Вы уверены что хотите удалить Book {{ id }}?"
+            },
+            "detail": {
+                "title": "Book"
+            },
+            "name": "Name",
+            "dateOfPublishing": "Date Of Publishing",
+            "coverPhoto": "Cover Photo",
+            "author": "Author",
+            "publishers": "Publishers"
+        }
+    }
+}

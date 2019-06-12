@@ -1,0 +1,26 @@
+{
+    "name": "Media",
+    "fields": [
+        {
+            "fieldName": "fileName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "file",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "any"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190610091807",
+    "javadoc": "Author entity.\n@author Sarangi Balu A",
+    "entityTableName": "media",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "jasperExamplev1",
+    "applications": "*",
+    "microserviceName": "jasperExamplev1"
+}

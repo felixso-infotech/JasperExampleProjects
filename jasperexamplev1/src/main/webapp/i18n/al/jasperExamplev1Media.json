@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Media" : {
+            "home": {
+                "title": "Media",
+                "createLabel": "Krijo një të ri Media",
+                "createOrEditLabel": "Krijo ose përpuno një Media"
+            },
+            "created": "Një Media i ri u krijua me identifikues {{ param }}",
+            "updated": "Një Media u përpunua me identifikues {{ param }}",
+            "deleted": "Një Media u fshi me identifikues {{ param }}",
+            "delete": {
+                "question": "Jeni i sigurtë që doni të fshini Media {{ id }}?"
+            },
+            "detail": {
+                "title": "Media"
+            },
+            "fileName": "File Name",
+            "file": "File"
+        }
+    }
+}

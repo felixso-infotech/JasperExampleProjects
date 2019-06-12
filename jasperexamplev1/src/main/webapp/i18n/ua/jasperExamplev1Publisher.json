@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Publisher" : {
+            "home": {
+                "title": "Publishers",
+                "createLabel": "Створити новий Publisher",
+                "createOrEditLabel": "Створити чи редагувати Publisher"
+            },
+            "created": "Новий Publisher створений з ідентифікатором {{ param }}",
+            "updated": "Publisher оновлений з ідентифікатором {{ param }}",
+            "deleted": "Publisher видалений з ідентифікатором {{ param }}",
+            "delete": {
+                "question": "Ви впевнені, що хочете видалити Publisher {{ id }}?"
+            },
+            "detail": {
+                "title": "Publisher"
+            },
+            "name": "Name",
+            "books": "Books"
+        }
+    }
+}

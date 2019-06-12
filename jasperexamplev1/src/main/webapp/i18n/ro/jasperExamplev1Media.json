@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Media" : {
+            "home": {
+                "title": "Media",
+                "createLabel": "Creeare o nouă entitate Media",
+                "createOrEditLabel": "Creeare sau editare Media"
+            },
+            "created": "A fost creată o nouă entitate Media cu identificatorul {{ param }}",
+            "updated": "Media cu identificatorul {{ param }} a fost actualizată",
+            "deleted": "Media cu identificatorul {{ param }} a fost ștearsă",
+            "delete": {
+                "question": "Sunteți sigur că doriți să ștergeți Media {{ id }}?"
+            },
+            "detail": {
+                "title": "Media"
+            },
+            "fileName": "File Name",
+            "file": "File"
+        }
+    }
+}

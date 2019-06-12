@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Media" : {
+            "home": {
+                "title": "Media",
+                "createLabel": "创建新 Media",
+                "createOrEditLabel": "创建或编辑 Media"
+            },
+            "created": "Media {{ param }} 创建成功",
+            "updated": "Media {{ param }} 更新成功",
+            "deleted": "Media {{ param }} 删除成功",
+            "delete": {
+                "question": "你确定要删除 Media {{ id }} 吗？"
+            },
+            "detail": {
+                "title": "Media"
+            },
+            "fileName": "File Name",
+            "file": "File"
+        }
+    }
+}

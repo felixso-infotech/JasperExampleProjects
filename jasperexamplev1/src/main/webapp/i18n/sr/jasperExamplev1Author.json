@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Author" : {
+            "home": {
+                "title": "Authors",
+                "createLabel": "Kreiraj novi Author",
+                "createOrEditLabel": "Kreirajte ili izmenite Author"
+            },
+            "created": "Kreiran je novi Author pod nazivom {{ param }}",
+            "updated": "Author pod nazivom {{ param }} je ažuriran",
+            "deleted": "Author pod nazivom {{ param }} je obrisan",
+            "delete": {
+                "question": "Da li ste sigurni da želite da obrišete Author pod nazivom {{ id }}?"
+            },
+            "detail": {
+                "title": "Author"
+            },
+            "name": "Name",
+            "books": "Books"
+        }
+    }
+}

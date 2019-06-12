@@ -1,0 +1,23 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Publisher" : {
+            "home": {
+                "title": "Publishers",
+                "createLabel": "Buat Publisher baru",
+                "createOrEditLabel": "Buat atau edit Publisher"
+            },
+            "created": "Publisher dengan id {{ param }} telah dibuat",
+            "updated": "Publisher dengan id {{ param }} telah diperbaharui",
+            "deleted": "Publisher dengan id {{ param }} telah dihapus",
+            "delete": {
+                "question": "Apakah anda yakin ingin menghapus Publisher {{ id }}?"
+            },
+            "detail": {
+                "title": "Publisher"
+            },
+            "name": "Name",
+            "books": "Books"
+        }
+    }
+}

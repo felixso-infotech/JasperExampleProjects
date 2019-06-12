@@ -1,0 +1,26 @@
+
+{
+    "jasperExamplev1App": {
+        "jasperExamplev1Book" : {
+            "home": {
+                "title": "Books",
+                "createLabel": "Krijo një të ri Book",
+                "createOrEditLabel": "Krijo ose përpuno një Book"
+            },
+            "created": "Një Book i ri u krijua me identifikues {{ param }}",
+            "updated": "Një Book u përpunua me identifikues {{ param }}",
+            "deleted": "Një Book u fshi me identifikues {{ param }}",
+            "delete": {
+                "question": "Jeni i sigurtë që doni të fshini Book {{ id }}?"
+            },
+            "detail": {
+                "title": "Book"
+            },
+            "name": "Name",
+            "dateOfPublishing": "Date Of Publishing",
+            "coverPhoto": "Cover Photo",
+            "author": "Author",
+            "publishers": "Publishers"
+        }
+    }
+}
