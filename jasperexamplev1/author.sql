@@ -1,0 +1,10 @@
+insert into author (id, name) values (1, 'Darell');
+insert into author (id, name) values (2, 'Devondra');
+insert into author (id, name) values (3, 'Agustin');
+insert into author (id, name) values (4, 'Hermie');
+insert into author (id, name) values (5, 'Fiann');
+insert into author (id, name) values (6, 'Lari');
+insert into author (id, name) values (7, 'Brandtr');
+insert into author (id, name) values (8, 'Flora');
+insert into author (id, name) values (9, 'Ariadne');
+insert into author (id, name) values (10, 'Giffer');
