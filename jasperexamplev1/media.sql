@@ -1,0 +1,15 @@
+insert into media (id, file_name, jhi_file, jhi_file_content_type) values (1, 'Lincoln', LOAD_FILE("E:\\doc_jasper_example\\images\\englishwife.jpg"), 'jpg');
+insert into media (id, file_name, jhi_file, jhi_file_content_type) values (2, 'Alli', LOAD_FILE("E:\\doc_jasper_example\\images\\images (1).jfif"), 'jfif');
+insert into media (id, file_name, jhi_file, jhi_file_content_type) values (3, 'Farra', LOAD_FILE("E:\\doc_jasper_example\\images\\images (2).jfif"), 'jfif');
+insert into media (id, file_name, jhi_file, jhi_file_content_type) values (4, 'Blinnie', LOAD_FILE("E:\\doc_jasper_example\\images\\images (3).jfif"), 'jfif');
+insert into media (id, file_name, jhi_file, jhi_file_content_type) values (5, 'Glennis', LOAD_FILE("E:\\doc_jasper_example\\images\\images (4).jfif"), 'jfif');
+insert into media (id, file_name, jhi_file, jhi_file_content_type) values (6, 'Maxine', LOAD_FILE("E:\\doc_jasper_example\\images\\images (5).jfif"), 'jfif');
+insert into media (id, file_name, jhi_file, jhi_file_content_type) values (7, 'Milzie', LOAD_FILE("E:\\doc_jasper_example\\images\\images (6).jfif"), 'jfif');
+insert into media (id, file_name, jhi_file, jhi_file_content_type) values (8, 'Ulysses', LOAD_FILE("E:\\doc_jasper_example\\images\\images (7).jfif"), 'jfif');
+insert into media (id, file_name, jhi_file, jhi_file_content_type) values (9, 'Waldo', LOAD_FILE("E:\\doc_jasper_example\\images\\images (8).jfif"), 'jfif');
+insert into media (id, file_name, jhi_file, jhi_file_content_type) values (10, 'Colly', LOAD_FILE("E:\\doc_jasper_example\\images\\images.jfif"), 'jfif');
+insert into media (id, file_name, jhi_file, jhi_file_content_type) values (11, 'Glennis', LOAD_FILE("E:\\doc_jasper_example\\images\\images (9).jfif"), 'jfif');
+insert into media (id, file_name, jhi_file, jhi_file_content_type) values (12, 'Maxine', LOAD_FILE("E:\\doc_jasper_example\\images\\images (10).jfif"), 'jfif');
+insert into media (id, file_name, jhi_file, jhi_file_content_type) values (13, 'Milzie', LOAD_FILE("E:\\doc_jasper_example\\images\\images (11).jfif"), 'jfif');
+insert into media (id, file_name, jhi_file, jhi_file_content_type) values (14, 'Ulysses', LOAD_FILE("E:\\doc_jasper_example\\images\\images (12).jfif"), 'jfif');
+insert into media (id, file_name, jhi_file, jhi_file_content_type) values (15, 'Waldo', LOAD_FILE("E:\\doc_jasper_example\\images\\images (13).jfif"), 'jfif');

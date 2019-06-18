@@ -349,6 +349,15 @@
             <artifactId>spring-security-data</artifactId>
         </dependency>
         <!-- jhipster-needle-maven-add-dependency -->
+        
+        <!-- jasper dependancy -->
+        
+        <dependency>
+        <groupId>net.sf.jasperreports</groupId>
+        <artifactId>jasperreports</artifactId>
+        <version>6.1.0</version>
+        </dependency>
+        
     </dependencies>
 
     <build>

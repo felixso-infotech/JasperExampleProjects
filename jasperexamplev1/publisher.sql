@@ -1,0 +1,10 @@
+insert into  publisher (id, name) values (1, 'Hynda');
+insert into  publisher (id, name) values (2, 'Beret');
+insert into  publisher (id, name) values (3, 'Kermie');
+insert into  publisher (id, name) values (4, 'Marcy');
+insert into  publisher (id, name) values (5, 'Walker');
+insert into  publisher (id, name) values (6, 'Micheline');
+insert into  publisher (id, name) values (7, 'Julio');
+insert into  publisher (id, name) values (8, 'Madge');
+insert into  publisher (id, name) values (9, 'Ronica');
+insert into  publisher (id, name) values (10, 'Lil');
