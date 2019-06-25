@@ -88,7 +88,7 @@ public class AggregateResource {
 		byte[] pdfContents = null;
 
 		try {
-			pdfContents = AggregateService.getReportAsPdfUsingJavaBean();
+			pdfContents = aggregateService.getReportAsPdfUsingJavaBean();
 		} catch (JRException e) {
 			e.printStackTrace();
 		}
