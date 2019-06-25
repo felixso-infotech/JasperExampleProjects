@@ -24,7 +24,7 @@ public class BookDataBean {
 	private String publisherName; 
 	
 	public BookDataBean() {
-		// TODO Auto-generated constructor stub
+		
 	}
 		
 	public BookDataBean(String bookName, String authorName, String publisherName) {

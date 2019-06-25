@@ -25,6 +25,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import com.felixso.jasper.BookDataBeanList;
 import com.felixso.service.AggregateService;
 import net.sf.jasperreports.engine.JRException;
 import net.sf.jasperreports.engine.JasperCompileManager;
@@ -32,6 +34,7 @@ import net.sf.jasperreports.engine.JasperExportManager;
 import net.sf.jasperreports.engine.JasperFillManager;
 import net.sf.jasperreports.engine.JasperPrint;
 import net.sf.jasperreports.engine.JasperReport;
+import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
 
 
 
@@ -76,6 +79,31 @@ public class AggregateServiceImpl implements AggregateService {
 			
 			
 	}
+	
+	/**
+     * Gets bookReport : using javabean.
+     * 
+     * @return the byte[].
+     * 
+     * @throws JRException.
+     */
+    
+	@Override
+    public byte[] getReportAsPdfUsingJavaBean() throws JRException {
+		        
+	      JasperReport jr = JasperCompileManager.compileReport("src/main/resources/books_javabean.jrxml");
+
+	      JRBeanCollectionDataSource collectionDatasource = new JRBeanCollectionDataSource(BookDataBeanList.getDataBeanList());
+	      			     
+	      //Preparing parameters
+	      Map<String, Object> parameters = new HashMap<String, Object>();
+	    			     
+	      JasperPrint jp = JasperFillManager.fillReport(jr, parameters, collectionDatasource);
+	     
+	      return JasperExportManager.exportReportToPdf(jp);
+       
+       }
+
 		  
 		
 

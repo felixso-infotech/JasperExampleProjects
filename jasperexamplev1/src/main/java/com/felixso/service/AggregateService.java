@@ -48,19 +48,7 @@ public interface AggregateService {
      * @throws JRException.
      */
     
-     public static byte[] getReportAsPdfUsingJavaBean() throws JRException {
-		        
-	      JasperReport jr = JasperCompileManager.compileReport("src/main/resources/books_javabean.jrxml");
-
-	      JRBeanCollectionDataSource collectionDatasource = new JRBeanCollectionDataSource(BookDataBeanList.getDataBeanList());
-	      			     
-	      //Preparing parameters
-	      Map<String, Object> parameters = new HashMap<String, Object>();
-	    			     
-	      JasperPrint jp = JasperFillManager.fillReport(jr, parameters, collectionDatasource);
-	     
-	      return JasperExportManager.exportReportToPdf(jp);
-       
-       }
+     byte[] getReportAsPdfUsingJavaBean() throws JRException; 
+		             
 
 }
