@@ -1,93 +1,26 @@
-# jasperExamplev1
-This application was generated using JHipster 5.6.1, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v5.6.1](https://www.jhipster.tech/documentation-archive/v5.6.1).
+# About Us [www.lxisoft.com] | [www.felixsoinfotech.com]
 
-This is a "microservice" application intended to be part of a microservice architecture, please refer to the [Doing microservices with JHipster][] page of the documentation for more information.
+We want to increase the life chances of millions of people. Specifically, “The Fortune at the Bottom of the Pyramid,” using the power of technology. We wish to forge associations with people like you. Powered by you and by leveraging synergies, creativity, competitiveness, grace, and entrepreneurship, together, let us Script the Future.
 
-This application is configured for Service Discovery and Configuration with . On launch, it will refuse to start if it is not able to connect to .
+## Java Development Services
 
-## Development
+From an incubating Idea to a rapid prototype, followed by continuous integration and continuous delivery of upgrades, launch to a production release, and additional production upgrades – we are here to help. We are a team of Internationally Certified Java Developers who can transform your ideas into a Web Application or Cross-Platform Mobile Apps – Android, iPhone, iPad, Windows, and various others or SOA / Microservices based Architecture or Java Web Portals. You will set the time and pace, and our team will collaborate and lend you our expertise.
 
-To start your application in the dev profile, simply run:
-
-    ./mvnw
+[Contact Us](http://www.lxisoft.com/contact-us-2/)
 
 
-For further instructions on how to develop with JHipster, have a look at [Using JHipster in development][].
+## Continous Delivery
+
+Agile application delivery is leveraged to transform a roadmap into a production release. Our experts in consultation with you would make specific recommendations for our Software Delivery Strategy. Continuous Integration leverages Git, SVN, Maven, Gradle, Cloud, Nexus, Travis, Docker.
+
+[Contact Us](http://www.lxisoft.com/contact-us-2/)
 
 
+# Internationally Certified Developers
 
-## Building for production
+Our Internationally Certified Java Consultants are ready to collaborate with your team. Their experience working with technologies like J2EE, Struts, JSF, Spring, Hibernate, JPA, Microservices, Cloud, Portals, Docker, Kubernetes would be an asset.
 
-To optimize the jasperExamplev1 application for production, run:
+[Contact Us](http://www.lxisoft.com/contact-us-2/)
 
-    ./mvnw -Pprod clean package
-
-To ensure everything worked, run:
-
-    java -jar target/*.war
-
-
-Refer to [Using JHipster in production][] for more details.
-
-## Testing
-
-To launch your application's tests, run:
-
-    ./mvnw clean test
-
-For more information, refer to the [Running tests page][].
-
-### Code quality
-
-Sonar is used to analyse code quality. You can start a local Sonar server (accessible on http://localhost:9001) with:
-
-```
-docker-compose -f src/main/docker/sonar.yml up -d
-```
-
-Then, run a Sonar analysis:
-
-```
-./mvnw -Pprod clean test sonar:sonar
-```
-
-For more information, refer to the [Code quality page][].
-
-## Using Docker to simplify development (optional)
-
-You can use Docker to improve your JHipster development experience. A number of docker-compose configuration are available in the [src/main/docker](src/main/docker) folder to launch required third party services.
-
-For example, to start a mysql database in a docker container, run:
-
-    docker-compose -f src/main/docker/mysql.yml up -d
-
-To stop it and remove the container, run:
-
-    docker-compose -f src/main/docker/mysql.yml down
-
-You can also fully dockerize your application and all the services that it depends on.
-To achieve this, first build a docker image of your app by running:
-
-    ./mvnw package -Pprod jib:dockerBuild
-
-Then run:
-
-    docker-compose -f src/main/docker/app.yml up -d
-
-For more information refer to [Using Docker and Docker-Compose][], this page also contains information on the docker-compose sub-generator (`jhipster docker-compose`), which is able to generate docker configurations for one or several JHipster applications.
-
-## Continuous Integration (optional)
-
-To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`), this will let you generate configuration files for a number of Continuous Integration systems. Consult the [Setting up Continuous Integration][] page for more information.
-
-[JHipster Homepage and latest documentation]: https://www.jhipster.tech
-[JHipster 5.6.1 archive]: https://www.jhipster.tech/documentation-archive/v5.6.1
-[Doing microservices with JHipster]: https://www.jhipster.tech/documentation-archive/v5.6.1/microservices-architecture/
-[Using JHipster in development]: https://www.jhipster.tech/documentation-archive/v5.6.1/development/
-[Using Docker and Docker-Compose]: https://www.jhipster.tech/documentation-archive/v5.6.1/docker-compose
-[Using JHipster in production]: https://www.jhipster.tech/documentation-archive/v5.6.1/production/
-[Running tests page]: https://www.jhipster.tech/documentation-archive/v5.6.1/running-tests/
-[Code quality page]: https://www.jhipster.tech/documentation-archive/v5.6.1/code-quality/
-[Setting up Continuous Integration]: https://www.jhipster.tech/documentation-archive/v5.6.1/setting-up-ci/
 
 
