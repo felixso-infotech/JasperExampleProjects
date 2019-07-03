@@ -1,5 +1,6 @@
-# About Us [www.lxisoft.com] | [www.felixsoinfotech.com]
+# About Us
 
+[www.lxisoft.com] | [www.felixsoinfotech.com]
 We want to increase the life chances of millions of people. Specifically, “The Fortune at the Bottom of the Pyramid,” using the power of technology. We wish to forge associations with people like you. Powered by you and by leveraging synergies, creativity, competitiveness, grace, and entrepreneurship, together, let us Script the Future.
 
 ## Java Development Services
