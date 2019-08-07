@@ -104,6 +104,36 @@ public class AggregateServiceImpl implements AggregateService {
        
        }
 
+
+       /*/**
+	 * Gets bookReport : using javabean.
+	 * 
+	 * @return the byte[].
+	 * 
+	 * @throws JRException.
+	 */
+		 
+		/* @Override public byte[] getBookReceiptsAsPdf(String bookId) throws JRException {
+		  
+		 JasperReport jrReport = JasperCompileManager.compileReport("src/main/resources/jasper_reports/docket_master.jrxml");
+		  
+		  BookDataBean bookDataBean=findBookDataBeanBybookId(bookId); // the method in serviceimpl to return object
+		  
+		  new BookDataBeanList().setBookDataBeanList(bookDataBean); // add the reterived object to the list.
+		  
+		  JRBeanCollectionDataSource collectionDatasource = new JRBeanCollectionDataSource(BookDataBeanList.getBookDataBeanList());
+		 
+		  //Preparing parameters 
+		  Map<String, Object> parameters = new HashMap<String,Object>();
+		  
+		  JasperPrint jp = JasperFillManager.fillReport(jrReport, parameters,collectionDatasource);
+		  
+		  return JasperExportManager.exportReportToPdf(jp);
+		  
+		  }
+		 */
+	
+
 		  
 		
 

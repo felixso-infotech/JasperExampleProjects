@@ -22,6 +22,9 @@ import com.felixso.model.BookDataBean;
 
 public class BookDataBeanList {
 	
+	//private static List<BookDataBean> bookDataBeanList = new ArrayList<BookDataBean>();
+	
+
 	/**
      * Get the List of books with dummy data.
 	 *  
@@ -46,50 +49,32 @@ public class BookDataBeanList {
 	} 
 	
 	
-	/** 
-	 * Get the BookDataBean object.
-	 *
-	 * @param bookName - the name of the book.
-	 * @param authorName - name of the author.
-	 * @param publisherName - name of the publisher .
+	/**
+     * set the BookDataBean object List.
+     * 
+	 * bookDataBeanList - the list of the BookDataBean.
 	 * 
-	 * @return the Object : This method returns a DataBean object, with bookName, authorName, publisherName set in it. 
-	 */ 
-	
-	public static BookDataBean getProduceData(String bookName, String authorName, String publisherName) { 
+	 * //@return the List : This method returns BookDataBean objectList.  
+	 * 
+	 */
+   /* public List<BookDataBean> setBookDataBeanList(BookDataBean bookDataBean) { 
 		
-		BookDataBean dataBean = new BookDataBean(); 
+    	bookDataBeanList.add(bookDataBean); 
 		
-		dataBean.setBookName(bookName);; 
-		
-		dataBean.setAuthorName(authorName);; 
-		
-		dataBean.setPublisherName(publisherName);		
-		
-		return dataBean; 
-		
-	} 
-
+		return bookDataBeanList;		
+	} 	*/
+    
 	/**
      * Get the BookDataBean object List.
      * 
-	 * @param bookName - the name of the book.
-	 * @param authorName - name of the author.
-	 * @param publisherName - name of the publisher.
+	 * //@return the List : This method returns BookDataBean objectList.  
 	 * 
-	 * @return the List : This method returns BookDataBean objectList.  
-	 * 
-	 */
-    public static List<BookDataBean> getProduceDataList(String bookName, String authorName, String publisherName) { 
+	 */   
+   /* public static List<BookDataBean> getBookDataBeanList() { 
 		
-		List<BookDataBean> dataBeanList = new ArrayList<BookDataBean>(); 
-				
-		dataBeanList.add(new BookDataBean(bookName,authorName,publisherName));
+		return bookDataBeanList; 
 		
-		return dataBeanList; 
-		
-	} 	
-
+	}*/
 	
 
 }
